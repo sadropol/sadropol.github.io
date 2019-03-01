@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="utf-8">
+  <title>sdrpl.se/</title>
+
+  <meta name="description" 
+        content="lorem">
+  <meta name="author" 
+        content="sadropol">
+  
+  <!-- Android navbar color -->
+  <meta name="theme-color" 
+        content="black">
+  <!-- Windows Phone navbar color -->
+  <meta name="msapplication-navbutton-color" 
+        content="black">
+  <!-- iOS navbar color -->
+  <meta name="apple-mobile-web-app-capable" 
+        content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" 
+        content="black-translucent">
+  <!-- avoid zooming in whilst in landscape mode -->
+  <meta name="viewport" 
+        content="width=device-width; initial-scale=1.0">
+
+  <link rel="stylesheet" 
+        type="text/css" 
+        href="/assets/css/styles.css?v=4">
+  <!--[if !IE]>-->
+  <link rel="shortcut icon" 
+        sizes="192x192"
+        type="image/png" 
+        href="/assets/img/favicon.png?v=1">
+  <!--<![endif]-->
+  <!--[if IE]>
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="favicon.ico"/>
+  <![endif]-->
+</head>
+<body>
+  <script>
+    //  Set the hue value to any random value around the color circle.
+    hue = Math.floor(Math.random()*360);
+    /*
+        Set background color to the random hue value, with a saturation 
+        of 60% and lightness value of 80%. A reasonably bright color which
+        blends with the monochrome image, which has had its white color 
+        replaced with alpha transparency. 
+    */
+    document.body.style.backgroundColor  = `hsl(${hue}, 60%, 80%)`;
+    //  Zero out the margin and padding of the body. 
+    document.body.style.margin = "0px";
+    document.body.style.padding = "0px";
+  </script>
+  <img src="./assets/img/mangofy.png" alt="mango held by hand" class="responsive" />
+</body>
+</html>
