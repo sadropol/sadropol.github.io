@@ -1,0 +1,41 @@
+img.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+nav {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: x-large;
+  background: #222;
+  padding: 12px 5px;
+}
+nav a {
+  padding: 12px 5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+nav a:hover {
+  background: #555;
+}
+nav a.current {
+  background: #777;
+}
+
+article {
+  padding: 1em;
+  margin: 2em;
+  -webkit-columns: 2 200px;
+  -moz-columns: 2 200px;
+  -columns: 2 200px;
+  -webkit-column-gap: 3em;
+  -moz-column-gap: 3em;
+  column-gap: 3em;
+}
