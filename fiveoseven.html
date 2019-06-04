@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="utf-8">
+  <title>Random Mechanical Movement/</title>
+
+  <meta name="description" 
+        content="Random Mechanical Movements curtesy of http://507movements.com/">
+  <meta name="author" 
+        content="sadropol">
+  
+  <!-- avoid zooming in whilst in landscape mode -->
+  <meta name="viewport" 
+        content="width=device-width; initial-scale=1.0">
+
+  <link rel="stylesheet" 
+        type="text/css" 
+        href="/assets/css/styles.css?v=1">
+</head>
+<body>
+  <script>
+    //  Set the hue value to any random value around the color circle.
+    number = Math.floor(Math.random()*507);
+    document.getElementById("random_mechanism_image").src="http://507movements.com/img/mm_" + ("000" + number).slice(-3) + ".png"
+    document.getElementById("random_mechanism_link").href="http://507movements.com/mm_" + ("000" + number).slice(-3) + ".html"
+  </script> http://507movements.com/mm_002.html
+  <figure>
+    <a id="random_mechanism_link">
+      <img id="random_mechanism_image" alt="random mechanical movement" class="responsive" />
+    </a>
+    <figcaption>Curtesy of <a href="http://507movements.com/">507movements.com</a></figcaption>
+  </figure>
+</body>
+</html>
