@@ -21,8 +21,9 @@
   <script>
     //  Set the hue value to any random value around the color circle.
     number = Math.floor(Math.random()*507);
-    document.getElementById("random_mechanism_image").src="http://507movements.com/img/mm_" + ("000" + number).slice(-3) + ".png"
-    document.getElementById("random_mechanism_link").href="http://507movements.com/mm_" + ("000" + number).slice(-3) + ".html"
+    number_string = ("000" + number).slice(-3)
+    document.getElementById("random_mechanism_image").src="http://507movements.com/img/mm_" + number_string + ".png"
+    document.getElementById("random_mechanism_link").href="http://507movements.com/mm_" + number_string + ".html"
   </script> http://507movements.com/mm_002.html
   <figure>
     <a id="random_mechanism_link">
